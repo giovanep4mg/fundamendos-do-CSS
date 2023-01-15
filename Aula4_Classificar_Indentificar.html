@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificar e Indentificar</title>
+</head>
+<body>
+    <header>
+        <h1>Classificar e Indentificar elementos "tag"</h1>
+    </header>
+    <main>
+        <h2>
+            <p>
+                Podem ser classificadas e indentificadas, pela "tag", pela "class" e pelo "id" <br>
+                A tag em si já indentica, mas pode ser indetificado uma diferente da outra, criando uma classe.<br>
+                Classe é para indentificar elementos com propriedades e caracteristas comuns.<br>
+                Podem haver várias classe, exemplo:<br>
+                <span style="color: brown;">< h2 class="primeira-classe segunda-classe" >< /h2 > </span><br>
+            </p>
+            <p>
+                Temos também o "id" , que é único, pode ser usado várias vezes, porém, somente um em cada página.<br>
+                Exemplo, com id:<br>
+                <span style="color: brown;">< h2 class="primeira-classe segunda-classe " id="titulo-exemplo" >< /h2 > </span><br>
+        </h2>
+        <section>
+            <header style="color: blue;"><h1>Como usar o "Seletor" </h1></header>
+            <article>
+                <h2>
+                    Agora, que já tem "seletores" expecifico, vamos ver como modifica-los.<br>
+                    Você seleciona uma "tag", e tudo o que estiver dentro dela será modificado<br>
+                    * Pode ser sobreescrita*
+                    <br>
+                    <span style="color: blueviolet;">
+                    h2 { <br>
+                    ----color: red; << vai deixar em vermelho o texto dentro da tag "h2" <br>
+                    }<br>
+                </span>
+                </h2>
+            </article>
+        </section>
+        <br>
+        <section>
+            <article>
+                <h2>
+                    Para indentificar uma classe, usa o ponto "."<br>
+                    Exemplo de como fica o código:<br>
+                    <br>
+                    <span style="color: rgb(17, 160, 53);">
+                    .titulo-aula{ <br>
+                    ----color: red; << vai deixar em vermelho o texto dentro da tag "h2" <br>
+                    }<br>
+                </span>
+                </h2>
+            </article>
+        </section> 
+        <br>
+        <section>
+            <article>  
+            <h2>
+                Para indentificar um "id" <br>
+                Exemplo de como fica o código:<br>
+                <br>
+                <span style="color: rgb(128, 7, 117);">
+                    #titulo-primeira-aula{<br>
+                    -------text-decoration: none;<br>
+                    }<br>
+                </span>
+            </h2>
+            </article>
+        </section>
+        <br>
+        <section> 
+        <header><h1 style="color: blue;">Cascada, regras de como vai agir as regras dos elementos</h1></header>
+            <article>
+            <h2>
+                Como serão aplicada as regas que foram colocadas<br>
+                Vai seguindo uma ordem:<br>
+                <span style="color: blueviolet;">
+                TAG = se não houver nenhuma regra, ela vai coninuar a mesma configuração, pode ser sobreescrita.<br>
+                CLASS = vai ser aplicada todas as regras ja configuradas nela .<br>
+                ID = será aplica as regras ja configuradas para ele.<br>
+                </span>
+                <br>
+                <span style="color: brown;">de acordo com o Local</span><br>
+                Há também uma ordem, de acordo com o local onde está o CSS.<br>
+                <span style="color: blueviolet;">
+                EXTERNO = tipo a página criada "style.css" primeiro aplica essas regras, substituindo até as outras já colocadas.<br>
+                TAG STYLE = aplica as regras que estão aqui.<br>
+                INLINE = aplicaria as regras colocadas nas linhas.<br>
+                </span>
+            </h2>
+            </article>
+        </section>
+        <section>
+            <article>
+                <img src="classificarSelecionarElementos.png">
+            </article>
+        </section>
+    </main>
+    <br>
+    <br>
+    <section>
+        <button type="submit"><a href="Aula5_Color.html">Proxima </a> </button>
+        <br>
+        <br>
+        <button type="submit"><a href="Aula3_Formas_de_declarar_css.html">Voltar </a> </button>
+    </section>
+    <br>
+    <br>
+</body>
+</html>

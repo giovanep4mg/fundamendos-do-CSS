@@ -20,23 +20,47 @@
         </article>
     </main>
     <br>
-    <header><h1 style="color: rgb(16, 196, 25);">Declarar interno (criar uma página só para o CSS) </h1></header>
+    <br>
+    <header><h1 style="color: rgb(16, 196, 25);">Declarar Interno (style.css) </h1></header>
     <main>
         <h2>
-            O local mais indicado para colocar ou declarar é na tag "head", que fica no inicio da página <br>
-            Porque, o navegador vai começar a ler linha por linha de cima para baixo, vai ajudar na renderização da página<br>
-            Não é a melhor forma, de colocar "todas as regras de CSS".<br>
-            É indicada para colocar em pontos expecificos, onde você não pode mexer na estrutura no site.<br>
+            O melhor é criar uma página, só para declarar o CSS <br>
+            Vai ficar salva no navegador, deixando o carregamento da página mais rápido,<br>
+            Crie uma página, com o nome "style.css", só para colocar as regas do CSS.<br>
         </h2>
         <article>
-            <img src="styl.png" width="650" height="250"> 
+            <img src="telastyle_css.png" width="750" height="250"> 
+        </article>
+        <article>
+            <h2>Na página principal, você cria um link para a pagina "style", dentro do "head" <br>
+                O link, seria isso: <span style="color: brown;">< link rel="stylesheet" href="style.css" ></span><br>
+            </h2>
+            <img src="linkparaCSS.png" width="750" height="250"> 
         </article>
     </main>
+    <br>
+    <br>
+    <header><h1 style="color: blue;">Declarar InLine </h1></header>
+    <main>
+        <h2>
+            Definido no próprio html, na mesma linha do que deseja alterar <br>
+            É bom para renderização da página, por que já vai ler na hora, junto com o carregamento da página<br>
+            Mas para manter, para manutenção da página é ruim, usar mais em locais expecificos somente  para uma tag<br>
+        </h2>
+        <article>
+            <h2>Aqui está sendo aplicada, somente na tag "h2", então somente o que estiver dentro dela, será modificado</h2>
+            <img src="css_line_aplica.png" width="900" height="400"> 
+        </article>
+    </main>
+    <br>
+    <br>
     <section>
-        <button type="submit"><a href="">Proxima </a> </button>
+        <button type="submit"><a href="Aula4_Classificar_Indentificar.html">Proxima </a> </button>
         <br>
         <br>
         <button type="submit"><a href="Aula2_Primeiro_Bloco_de_Instrucao.html">Voltar </a> </button>
     </section>
+    <br>
+    <br>
 </body>
 </html>
