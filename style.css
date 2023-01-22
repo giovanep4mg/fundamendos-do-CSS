@@ -1,5 +1,13 @@
-html{
-    color:#ec0404;
-    background-color: #cc3737;
-    background-image: url("fundo\ tela\ 1.png");
+
+p{
+    color: rgba(31, 28, 179, 0.514);
+    font-variant-caps: small-caps;
+    font-size: 1.5rem;
+}
+
+.texto-vermelho{
+    color: rgb(224, 16, 16);
+    font-variant-caps: all-small-caps;
+    font-size: 2.0rem;
+    
 }

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes</title>
+</head>
+<body>
+    <main>
+        <header><h1 style="color: rgb(19, 160, 113);">Font</h1></header>
+        <section>
+            <header><h1 style="color: rgb(72, 12, 214);">Font Family </h1></header>
+            <article>
+                <h2>
+                    <p>
+                    Font Family, é a fonte que o navegador vai renderizar, o tipo de fonte<br>
+                    Tem alguns padrões pré definidos <br>
+                    Pode usar fontes diferentes, mas para isso deve adicionar ao projeto <br>
+                    O código: <br>
+                    <span style="color: rgb(57, 11, 184);">
+                        main{<br>
+                        -----font-family: cursive<br>  
+                        -}<br>
+                    </span>
+                    </p>
+                </h2>
+                <article>
+                    <h2 style="color: brown;">Como fica na página:</h2>
+                    <img src="Font-family-cursive.png" width="800" height="450">
+                    </article>
+            </article>
+        </section>
+        <br>
+        <br>
+        <section>
+            <header><h1 style="color: rgb(19, 160, 113);">Como usar uma font diferente </h1></header>
+            <article>
+                <h2>
+                    <p>
+                    Precisa baixar a font, salvar junto com os aquivos da página que está criando<br>
+                    Vai ter que cria uma nova Family Font, passando o nome e o local que está a fonte baixada.<br>
+                    ALERTA = é preciso colocar tambem, uma fonte reserva, caso essa que vc está adicionando nao abra no navegador.<br>
+                    O código para adicionar a fonte baixada: <br>
+                    <span style="color: rgb(57, 11, 184);">
+                        @font-face {<br>
+                        -----------font-family: RioGrande;<br>
+                        -----------src: url("RioGrande.ttf");<br>
+                        }<br>
+                    </span>
+                    ---------------------------------------------------------------------------------<br>
+                    Aqui você adiciona a fonte, com uma outra reserva , caso a principal nao funcione tem outra:<br>
+                    <span style="color: rgb(102, 130, 206);">
+                        main{<br>
+                        -----font-family: 'RioGrande', cursive ;<br>
+                        }<br>
+                    </span>
+                    </p>
+                </h2>
+                <article>
+                    <h2 style="color: brown;">Como fica na página:</h2>
+                    <img src="Font-family-baixada.png" width="800" height="550" >
+                    </article>
+            </article>
+        </section>
+        <br>
+        <br>
+        <section>
+            <header><h1 style="color: rgb(226, 18, 174);">Font style</h1></header>
+            <article>
+                <h2>
+                    <p>
+                    Se será itálico ou não, a letra cai um pouco para o lado<br>
+                    Oblique = que deixa ela para outra direção, algumas fontes não possui essa função.<br>
+                    No exemplo abaixo, está tudo com font "cursive", mudando somento o "style", o estilo dela.<br>
+                    O código seria assim:<br>
+                    <br>
+                    <span style="color: rgb(57, 11, 184);">
+                        h1{  <br>    
+                        -----color: blue;<br>
+                        -----font-family: cursive;<br>
+                        -----font-style: normal;<br>
+                        }<br>
+                        #titulo-primeira-aula{<br>
+                        ----color: rgb(218, 19, 36);<br>
+                        ----font-family: cursive;<br>
+                        ----font-style: italic;<br>
+                        }<br>
+                        #titulo-segunda-aula{<br>
+                        ----color: rgb(24, 153, 67);<br>
+                        ----font-family: cursive;<br>
+                        ----font-style: oblique;<br>
+                        }<br>
+                    </span>
+                    </p>
+                </h2>
+                <article>
+                    <h2 style="color: brown;">Como fica na página:</h2>
+                    <img src="Font-family-cursive-style.png" width="700" height="350" >
+                    </article>
+            </article>
+        </section>
+        <br>
+        <br>
+        <section>
+            <header><h1 style="color: rgb(120, 196, 21);">Font width  </h1></header>
+            <article>
+                <h2>
+                    <p>
+                    É mais conhecida como "negrito", defini a grossura das letras.<br>
+                    De acordo, com a fonte do texto, terá suas opções para modificar o "negrito"<br>
+                    No exemplo abaixo, está tudo com font "fantasy", mudando somento o "weigth".<br>
+                    O código seria assim:<br>
+                    <br>
+                    <span style="color: rgb(57, 11, 184);">
+                        h1{  <br>    
+                        -----color: black;<br>
+                        -----font-family: fantasy; <br>
+                        -----font-weigth: 100; <br>
+                        }<br>
+                        #titulo-primeira-aula{ <br>
+                        ----color: black; <br>
+                        ----font-family: fantasy; <br>
+                        ----font-weigth: 300; <br>
+                        }<br>
+                        #titulo-segunda-aula{ <br>
+                        ----color: blcak; <br>
+                        ----font-family: fantasy; <br>
+                        ----font-weigth: bold; <br>
+                        }<br>
+                    </span>
+                    </p>
+                </h2>
+                <article>
+                    <h2 style="color: brown;">Como fica na página:</h2>
+                    <img src="Font-weigth(negrito).png" width="800" height="450" >
+                    </article>
+            </article>
+        </section>
+        <br>
+        <br>
+        <section>
+            <header><h1 style="color: rgb(120, 196, 21);">Font Variant Caps  </h1></header>
+            <article>
+                <h2>
+                    <p>
+                    Letras maiúsculas e minúsculas.<br>
+                    Small cap = pega a Primeira letra do texto e deixa ela maiúscula.<br>
+                    O código seria assim:<br>
+                    <br>
+                    <span style="color: rgb(57, 11, 184);">
+                        p{<br>
+                        -----color: rgba(31, 28, 179, 0.514);<br>
+                        -----font-variant-caps: small-caps;<br>
+                        }<br>
+                    </span>
+                    <br>
+                    All small cap = deixa todo texto com a letra minúscula .<br>
+                    O código seria assim:<br>
+                    <br>
+                    <span style="color: rgb(57, 11, 184);">
+                        p{<br>
+                        -----color: rgba(31, 28, 179, 0.514);<br>
+                        -----font-variant-caps: all-small-caps;<br>
+                        }<br>
+                    </span>
+                    </p>
+                </h2>
+                <article>
+                    <h2 style="color: brown;">Como fica na página:</h2>
+                    <img src="Font-variant-caps.png" width="900" height="450" >
+                    </article>
+            </article>
+        </section>
+        <br>
+        <br>
+        <section>
+            <header><h1 style="color: rgb(9, 30, 153);">Font Size </h1></header>
+            <article>
+                <h2>
+                    <p>
+                    Tamanho da font da letra, de cada caractere.<br>
+                    O mais ideal para se usar é o "rem".<br>
+                    O código seria assim:<br>
+                    <br>
+                    <span style="color: rgb(161, 28, 57);">
+                        p{<br>
+                        -----color: rgba(31, 28, 179, 0.514);<br>
+                        -----font-variant-caps: small-caps;<br>
+                        -----font-size: 1.5 rem ;<br>
+                        }<br>
+                    </span>
+                    <br>
+                    All small cap = deixa todo texto com a letra minúscula .<br>
+                    O código seria assim:<br>
+                    <br>
+                    <span style="color: rgb(189, 58, 101);">
+                        p{<br>
+                        -----color: rgba(31, 28, 179, 0.514);<br>
+                        -----font-variant-caps: all-small-caps;<br>
+                        -----font-size: 2.0 rem; <br>
+                        }<br>
+                    </span>
+                    </p>
+                </h2>
+                <article>
+                    <h2 style="color: brown;">Como fica na página:</h2>
+                    <img src="Font-size.png" width="900" height="450" >
+                    </article>
+            </article>
+        </section>
+    </main>    
+    <br>
+    <br>
+    <section>
+        <button type="submit"><a href="">Proxima </a> </button>
+        <br>
+        <br>
+        <button type="submit"><a href="Aula6_AspectoFundo.html">Voltar </a> </button>
+    </section>
+    <br>
+    <br>
+</body>
+</html>
