@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formas de declarar o CSS</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <header><h1 style="color: blue;">Declarar no HEAD </h1></header>
+    <header class="titulo-principal"><h1>Declarar no HEAD </h1></header>
     <main>
         <h2>
             O local mais indicado para colocar ou declarar é na tag "head", que fica no inicio da página <br>
@@ -21,7 +22,7 @@
     </main>
     <br>
     <br>
-    <header><h1 style="color: rgb(16, 196, 25);">Declarar Interno (style.css) </h1></header>
+    <header class="titulo-principal"><h1>Declarar Interno (style.css) </h1></header>
     <main>
         <h2>
             O melhor é criar uma página, só para declarar o CSS <br>
@@ -33,14 +34,15 @@
         </article>
         <article>
             <h2>Na página principal, você cria um link para a pagina "style", dentro do "head" <br>
-                O link, seria isso: <span style="color: brown;">< link rel="stylesheet" href="style.css" ></span><br>
+                O link, seria isso:<br>
+                 <span style="color: brown;">< link rel="stylesheet" href="style.css" ></span><br>
             </h2>
             <img src="linkparaCSS.png" width="750" height="250"> 
         </article>
     </main>
     <br>
     <br>
-    <header><h1 style="color: blue;">Declarar InLine </h1></header>
+    <header class="titulo-principal"><h1>Declarar InLine </h1></header>
     <main>
         <h2>
             Definido no próprio html, na mesma linha do que deseja alterar <br>
@@ -62,5 +64,8 @@
     </section>
     <br>
     <br>
+    <section>
+        &copy;Giovani Teodoro Martins
+    </section>
 </body>
 </html>

@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <main>
-        <header><h1 style="color: rgb(19, 160, 113);">Font</h1></header>
+        <header class="titulo-principal" ><h1>Font</h1></header>
         <section>
             <header><h1 style="color: rgb(72, 12, 214);">Font Family </h1></header>
             <article>
@@ -18,7 +19,7 @@
                     Tem alguns padrões pré definidos <br>
                     Pode usar fontes diferentes, mas para isso deve adicionar ao projeto <br>
                     O código: <br>
-                    <span style="color: rgb(57, 11, 184);">
+                    <span class="codigo-exemplo">
                         main{<br>
                         -----font-family: cursive<br>  
                         -}<br>
@@ -26,7 +27,7 @@
                     </p>
                 </h2>
                 <article>
-                    <h2 style="color: brown;">Como fica na página:</h2>
+                    <h2 style="color: rgb(19, 173, 96);">Como fica na página:</h2>
                     <img src="Font-family-cursive.png" width="800" height="450">
                     </article>
             </article>
@@ -34,7 +35,7 @@
         <br>
         <br>
         <section>
-            <header><h1 style="color: rgb(19, 160, 113);">Como usar uma font diferente </h1></header>
+            <header class="titulo-principal"><h1>Como usar uma font diferente </h1></header>
             <article>
                 <h2>
                     <p>
@@ -42,7 +43,7 @@
                     Vai ter que cria uma nova Family Font, passando o nome e o local que está a fonte baixada.<br>
                     ALERTA = é preciso colocar tambem, uma fonte reserva, caso essa que vc está adicionando nao abra no navegador.<br>
                     O código para adicionar a fonte baixada: <br>
-                    <span style="color: rgb(57, 11, 184);">
+                    <span class="codigo-exemplo">
                         @font-face {<br>
                         -----------font-family: RioGrande;<br>
                         -----------src: url("RioGrande.ttf");<br>
@@ -50,7 +51,7 @@
                     </span>
                     ---------------------------------------------------------------------------------<br>
                     Aqui você adiciona a fonte, com uma outra reserva , caso a principal nao funcione tem outra:<br>
-                    <span style="color: rgb(102, 130, 206);">
+                    <span class="codigo-exemplo">
                         main{<br>
                         -----font-family: 'RioGrande', cursive ;<br>
                         }<br>
@@ -58,7 +59,7 @@
                     </p>
                 </h2>
                 <article>
-                    <h2 style="color: brown;">Como fica na página:</h2>
+                    <h2 style="color: rgb(20, 192, 77);">Como fica na página:</h2>
                     <img src="Font-family-baixada.png" width="800" height="550" >
                     </article>
             </article>
@@ -66,7 +67,7 @@
         <br>
         <br>
         <section>
-            <header><h1 style="color: rgb(226, 18, 174);">Font style</h1></header>
+            <header class="titulo-principal"><h1>Font style</h1></header>
             <article>
                 <h2>
                     <p>
@@ -75,7 +76,7 @@
                     No exemplo abaixo, está tudo com font "cursive", mudando somento o "style", o estilo dela.<br>
                     O código seria assim:<br>
                     <br>
-                    <span style="color: rgb(57, 11, 184);">
+                    <span class="codigo-exemplo">
                         h1{  <br>    
                         -----color: blue;<br>
                         -----font-family: cursive;<br>
@@ -95,7 +96,7 @@
                     </p>
                 </h2>
                 <article>
-                    <h2 style="color: brown;">Como fica na página:</h2>
+                    <h2 style="color: rgb(31, 180, 93);">Como fica na página:</h2>
                     <img src="Font-family-cursive-style.png" width="700" height="350" >
                     </article>
             </article>
@@ -103,7 +104,7 @@
         <br>
         <br>
         <section>
-            <header><h1 style="color: rgb(120, 196, 21);">Font width  </h1></header>
+            <header class="titulo-principal"><h1>Font width  </h1></header>
             <article>
                 <h2>
                     <p>
@@ -112,7 +113,7 @@
                     No exemplo abaixo, está tudo com font "fantasy", mudando somento o "weigth".<br>
                     O código seria assim:<br>
                     <br>
-                    <span style="color: rgb(57, 11, 184);">
+                    <span class="codigo-exemplo"">
                         h1{  <br>    
                         -----color: black;<br>
                         -----font-family: fantasy; <br>
@@ -132,7 +133,7 @@
                     </p>
                 </h2>
                 <article>
-                    <h2 style="color: brown;">Como fica na página:</h2>
+                    <h2 style="color: rgb(27, 182, 78);">Como fica na página:</h2>
                     <img src="Font-weigth(negrito).png" width="800" height="450" >
                     </article>
             </article>
@@ -140,7 +141,7 @@
         <br>
         <br>
         <section>
-            <header><h1 style="color: rgb(120, 196, 21);">Font Variant Caps  </h1></header>
+            <header class="titulo-principal"><h1>Font Variant Caps  </h1></header>
             <article>
                 <h2>
                     <p>
@@ -148,17 +149,18 @@
                     Small cap = pega a Primeira letra do texto e deixa ela maiúscula.<br>
                     O código seria assim:<br>
                     <br>
-                    <span style="color: rgb(57, 11, 184);">
+                    <span class="codigo-exemplo">
                         p{<br>
                         -----color: rgba(31, 28, 179, 0.514);<br>
                         -----font-variant-caps: small-caps;<br>
                         }<br>
                     </span>
                     <br>
+                    <br>
                     All small cap = deixa todo texto com a letra minúscula .<br>
                     O código seria assim:<br>
                     <br>
-                    <span style="color: rgb(57, 11, 184);">
+                    <span class="codigo-exemplo">
                         p{<br>
                         -----color: rgba(31, 28, 179, 0.514);<br>
                         -----font-variant-caps: all-small-caps;<br>
@@ -167,7 +169,7 @@
                     </p>
                 </h2>
                 <article>
-                    <h2 style="color: brown;">Como fica na página:</h2>
+                    <h2 style="color: rgb(22, 185, 22);">Como fica na página:</h2>
                     <img src="Font-variant-caps.png" width="900" height="450" >
                     </article>
             </article>
@@ -175,7 +177,7 @@
         <br>
         <br>
         <section>
-            <header><h1 style="color: rgb(9, 30, 153);">Font Size </h1></header>
+            <header class="titulo-principal"><h1>Font Size </h1></header>
             <article>
                 <h2>
                     <p>
@@ -183,7 +185,7 @@
                     O mais ideal para se usar é o "rem".<br>
                     O código seria assim:<br>
                     <br>
-                    <span style="color: rgb(161, 28, 57);">
+                    <span class="codigo-exemplo">
                         p{<br>
                         -----color: rgba(31, 28, 179, 0.514);<br>
                         -----font-variant-caps: small-caps;<br>
@@ -194,7 +196,7 @@
                     All small cap = deixa todo texto com a letra minúscula .<br>
                     O código seria assim:<br>
                     <br>
-                    <span style="color: rgb(189, 58, 101);">
+                    <span class="codigo-exemplo">
                         p{<br>
                         -----color: rgba(31, 28, 179, 0.514);<br>
                         -----font-variant-caps: all-small-caps;<br>
@@ -220,5 +222,8 @@
     </section>
     <br>
     <br>
+    <section>
+        &copy;Giovani Teodoro Martins
+    </section>
 </body>
 </html>

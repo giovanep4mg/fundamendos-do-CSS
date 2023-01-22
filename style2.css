@@ -1,0 +1,29 @@
+html{
+    background-color: rgba(149, 172, 45, 0.322);
+    background-image: cross-fade();
+    margin-left: 1.5rem;
+    
+}
+
+.titulo-principal{
+    color: blue;
+    background-color: rgba(216, 55, 216, 0.192);
+    text-decoration: underline;
+}
+
+.codigo-exemplo{
+    color: brown;
+    text-decoration-style: dotted;
+    background-color: rgba(152, 161, 238, 0.089);
+}
+
+p{
+    color: rgb(56, 9, 78);
+    
+}
+
+article{
+    display: grid;
+    content: attr();
+
+}
