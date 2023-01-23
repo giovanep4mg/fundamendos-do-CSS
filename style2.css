@@ -30,3 +30,9 @@ article{
 .como-fica{
     color: rgb(12, 184, 26);
 }
+a:hover{
+    color: red;
+}
+h3:hover{
+    color: blue;
+}

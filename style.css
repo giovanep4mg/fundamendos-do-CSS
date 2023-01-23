@@ -1,5 +1,5 @@
-a{
-    color: brown;
+a:hover{
+    color: rgb(14, 185, 66);
 }
 
 
@@ -14,7 +14,15 @@ a{
 
 
 
-header h1{
+
+
+
+
+
+
+
+
+header h1:{
     color: blue;
     
 } 
