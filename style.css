@@ -1,13 +1,43 @@
-
-p{
-    color: rgba(31, 28, 179, 0.514);
-    font-variant-caps: small-caps;
-    font-size: 1.5rem;
+a{
+    color: brown;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+header h1{
+    color: blue;
+    
+} 
+#titulo-primeira-aula{
+    color: black;
+    
+}
 .texto-vermelho{
-    color: rgb(224, 16, 16);
-    font-variant-caps: all-small-caps;
-    font-size: 2.0rem;
+    color: rgb(6, 99, 44);
+     
+}
+
+
+
+#titulo-segunda-aula{
+    color: brown;
+    text-transform: uppercase;
+}
+
+
+
+main p{
+    color: rgba(13, 13, 14, 0.966);
+    text-transform: capitalize;
     
 }

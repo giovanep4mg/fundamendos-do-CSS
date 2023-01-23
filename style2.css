@@ -1,7 +1,7 @@
 html{
     background-color: rgba(149, 172, 45, 0.322);
     background-image: cross-fade();
-    margin-left: 1.5rem;
+    
     
 }
 
@@ -26,4 +26,7 @@ article{
     display: grid;
     content: attr();
 
+}
+.como-fica{
+    color: rgb(12, 184, 26);
 }
