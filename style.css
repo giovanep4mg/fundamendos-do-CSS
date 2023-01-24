@@ -1,5 +1,6 @@
+
 html{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.062);
     margin: 0px;
 }
 .box{
@@ -27,3 +28,4 @@ html{
     margin-top: 0px;
     
 }
+
