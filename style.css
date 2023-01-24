@@ -1,51 +1,29 @@
-a:hover{
-    color: rgb(14, 185, 66);
+html{
+    background-color: black;
+    margin: 0px;
+}
+.box{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 2px solid  rgb(245, 221, 7);
+    padding: 10px;
+    margin: 10px 0 5px 10px;
 }
 
+.azul{
+    background-color: blue;
+    margin-bottom: 50px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-header h1:{
-    color: blue;
-    
-} 
-#titulo-primeira-aula{
-    color: black;
-    
-}
-.texto-vermelho{
-    color: rgb(6, 99, 44);
-     
 }
 
-
-
-#titulo-segunda-aula{
-    color: brown;
-    text-transform: uppercase;
+.verde{
+    background-color: green;
+    margin-left: 0px;
 }
 
-
-
-main p{
-    color: rgba(13, 13, 14, 0.966);
-    text-transform: capitalize;
+.vermelho{
+    background-color: red;
+    margin-top: 0px;
     
 }

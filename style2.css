@@ -1,31 +1,27 @@
 html{
-    background-color: rgba(149, 172, 45, 0.322);
-    background-image: cross-fade();
-    
+    background-color: rgba(178, 212, 28, 0.349); 
+    margin: 20px; 
     
 }
 
 .titulo-principal{
     color: blue;
-    background-color: rgba(216, 55, 216, 0.192);
+    background-color: rgba(151, 36, 151, 0.192);
     text-decoration: underline;
+    text-indent: 3px;
 }
 
 .codigo-exemplo{
     color: brown;
     text-decoration-style: dotted;
-    background-color: rgba(152, 161, 238, 0.089);
+    background-color: rgba(166, 171, 218, 0.295);
 }
 
 p{
     color: rgb(56, 9, 78);
+    font-style: italic;
+    font-size: larger;
     
-}
-
-article{
-    display: grid;
-    content: attr();
-
 }
 .como-fica{
     color: rgb(12, 184, 26);

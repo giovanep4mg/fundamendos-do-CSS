@@ -5,30 +5,218 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de Caixa</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <main>
         <header class="titulo-principal" ><h1>Modelo de Caixas no CSS</h1></header>
         <section>
-            <header class="titulo-principal" ><h1 >Link </h1></header>
+            <header class="titulo-principal" ><h1 >content = Conteúdo </h1></header>
+            <article>
+                <h2>
+                    <p>
+                    border box = conta a largura de uma borda a outra.<br>
+                    content box = conta só o conteúdo.<br>
+                    </p>
+                </h2>
+                <article>
+                    <h2 class="como-fica">Como fica na página:</h2>
+                    <img src="modelodCaixa.png" width="800" height="450">
+                    </article>
+            </article>
+        </section>
+        <br>
+        <section>
+            <header class="titulo-principal" ><h1 >Página de exemplo </h1></header>
+            <article>
+                <h2>
+                    <p>
+                    Para você ver como fica, crie uma nova página html.<br>
+                    Com esses dados:<br>
+                    </p>
+                </h2>
+                <article>
+                    <h2 class="como-fica">Como fica na página:</h2>
+                    <img src="paginatesteCaixa.png" width="1000" height="550">
+                </article>
+            </article>
+            <article>
+                <h2>
+                    <p>
+                    Crie uma página style, com esses dados:<br>
+                    </p>
+                </h2>
+                <article>
+                    <h2 class="como-fica">Como fica na página:</h2>
+                    <img src="paginatesteCaixa-style.png" width="750" height="450">
+                </article>
+            </article>
+        </section>
+        <br>
+        <section>
+            <header class="titulo-principal" ><h1 >content-box</h1></header>
             <article>
                 <h2>
                     <p>
                     Para você acessar outro local, dentro ou fora da sua página.<br>
-                    O link, normalmente é destacado, por ser azul e está sublinhado.<br>
-                    Mas pode ser modificados, mudando a cor do link, o desenho do cursor do mouse,etc..<br>
+                    tem que estar dentro do "section".<br>
+                    width =defini a largura. <br>
+                    height = defini a altura. <br>
                     O código: <br>
                     <span class="codigo-exemplo">
-                        main p{<br>
-                        -------color: rgba(31, 28, 179, 0.514);<br>
-                        -------text-indent: 2rem;<br>
+                        .box{<br>
+                        ----box-sizing: content-box;<br>
+                        ----width: 10rem;<br>
+                        ----height: 5rem;<br>
                         }<br>
                     </span>
                     </p>
                 </h2>
                 <article>
                     <h2 class="como-fica">Como fica na página:</h2>
-                    <img src="text-indent.png" width="800" height="450">
+                    <img src="paginatesteCaixa-content-box.png" width="800" height="450">
+                    </article>
+            </article>
+        </section>
+        <br>
+        <br>
+        <section>
+            <header class="titulo-principal" ><h1 >padding</h1></header>
+            <article>
+                <h2>
+                    <p>
+                    O espaço entre a borda e o conteúdo.<br>
+                    Pode ser definido o tamanho para os quatros cantos, começa no sentido horário.<br>
+                    Para as mudanças acontecerem no padding, tem que usar o border-box. <br>
+                    Se estiver "content-box" as mudanças de tamanho, vai ser para ele. <br>
+                    O código: <br>
+                    <span class="codigo-exemplo">
+                        .box{<br>
+                        ----box-sizing: border-box;<br>
+                        ----width: 10rem;<br>
+                        ----height: 5rem;<br>
+                        ----padding: 5px 3px 5px 10px;<br>
+                        }<br>
+                    </span>
+                    </p>
+                </h2>
+            </article>
+        </section>
+        <br>
+        <section>
+            <header class="titulo-principal" ><h1 >border</h1></header>
+            <article>
+                <h2>
+                    <p>
+                    De dentro para fora.<br>
+                    tem que informar; a largura, altura e a cor  da borda.<br>
+                    O código: <br>
+                    <span class="codigo-exemplo">
+                        .box{<br>
+                        ----box-sizing: content-box;<br>
+                        ----width: 100px;<br>
+                        ----height: 100px; <br>
+                        ----border: 3px solid  black;<br>
+                        }<br>
+                    </span>
+                    </p>
+                </h2>
+                <article>
+                    <h2 class="como-fica">Como fica na página:</h2>
+                    <img src="paginatesteCaixa_border.png" width="800" height="450">
+                    </article>
+            </article>
+        </section>
+        <br>
+        <section>
+            <header class="titulo-principal" ><h1 > "width" </h1></header>
+            <article>
+                <h2>
+                    <p>
+                    Define a largura da borda.<br>    
+                    Tem várias formas de definir a largura das bordas.<br>
+                    Até tirar a borda "border-bottom: 0px;"<br>
+                    Exemplo de um código: <br>
+                    <span class="codigo-exemplo">
+                        .azul{<br>
+                        ----background-color: blue;<br>
+                        ----border-width: 10px;<br>
+                        }<br>
+                    </span>
+                    </p>
+                </h2>
+                <article>
+                    <h2 class="como-fica">Como fica na página:</h2>
+                    <img src="paginatesteCaixa_border-width.png" width="800" height="450">
+                    </article>
+            </article>
+        </section>
+        <br>
+        <section>
+            <header class="titulo-principal" ><h1 > "border style "</h1></header>
+            <article>
+                <h2>
+                    <p>
+                    Define o estilo das bordas.<br>
+                    Exemplo de um código: <br>
+                    <span class="codigo-exemplo">
+                        .azul{<br>
+                        ----background-color: blue;<br>
+                        ----border-width: 10px;<br>
+                        ----border-bottom-style: double;<br>
+                        }<br>
+                    </span>
+                    </p>
+                </h2>
+                <article>
+                    <h2 class="como-fica">Como fica na página:</h2>
+                    <img src="paginatesteCaixa_border-style.png" width="1000" height="550">
+                    </article>
+            </article>
+        </section>
+        <br>
+        <section>
+            <header class="titulo-principal" ><h1 > "border radius"</h1></header>
+            <article>
+                <h2>
+                    <p>
+                    Define o raio da borda, faz uma curva na borda.<br>
+                    Exemplo de um código: <br>
+                    <span class="codigo-exemplo">
+                        .azul{<br>
+                        ----background-color: blue;<br>
+                        ----border-width: 10px;<br>
+                        ----border-bottom-style: double;<br>
+                        ----border-radius: 0 0 50px 10px;<br>
+                        }<br>
+                    </span>
+                    </p>
+                </h2>
+                <article>
+                    <h2 class="como-fica">Como fica na página:</h2>
+                    <img src="paginatesteCaixa_border-radius.png" width="900" height="650">
+                    </article>
+            </article>
+        </section>
+        <br>
+        <section>
+            <header class="titulo-principal" ><h1 > "margin"</h1></header>
+            <article>
+                <h2>
+                    <p>
+                    Define o espaço entre a borda e a parte externa.<br>
+                    Exemplo de um código: <br>
+                    <span class="codigo-exemplo">
+                        .azul{<br>
+                        ----background-color: blue;<br>
+                        ----margin-bottom: 50px;<br>
+                        }<br>
+                    </span>
+                    </p>
+                </h2>
+                <article>
+                    <h2 class="como-fica">Como fica na página:</h2>
+                    <img src="paginatesteCaixa_Margin.png" width="900" height="650">
                     </article>
             </article>
         </section>
@@ -36,7 +224,7 @@
     <br>
     <br>
     <section>
-        <button type="submit"><a href="">Proxima </a> </button>
+        <button type="submit"><a href="Aula1_Sintaxe_do_CSS.html">Inicio </a> </button>
         <br>
         <br>
         <button type="submit"><a href="Aula9_Links.html">Voltar </a> </button>
